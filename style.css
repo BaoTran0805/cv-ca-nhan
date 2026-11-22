@@ -1,0 +1,45 @@
+/* Giao diện chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edf3f9;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    line-height: 1.8;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề chính */
+h1 {
+    text-align: center;
+    color: #1e4775;
+    font-size: 32px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #1e4775;
+}
+
+/* Tiêu đề các mục */
+h2 {
+    color: #245b91;
+    font-size: 22px;
+    border-bottom: 2px solid #b7cee5;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Nội dung */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Khi xem trên điện thoại */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 20px;
+    }
+    
+}
